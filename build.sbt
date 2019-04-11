@@ -784,6 +784,12 @@ lazy val scioRepl: Project = Project(
     scioExtra
   )
 
+lazy val tmp: Project = Project(
+  "tmp", 
+  file("tmp")
+).settings(commonSettings ++ noPublishSettings)
+  .dependsOn(scioCore, scioAvro, scioSchemas, scioTest)
+
 lazy val scioJmh: Project = Project(
   "scio-jmh",
   file("scio-jmh")
