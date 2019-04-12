@@ -27,7 +27,7 @@ val algebirdVersion = "0.13.5"
 val annoy4sVersion = "0.8.0"
 val annoyVersion = "0.2.5"
 val asmVersion = "4.9"
-val autoServiceVersion = "1.0-rc5"
+val autoServiceVersion = "1.0-rc2"
 val avroVersion = "1.8.2"
 val breezeVersion = "1.0-RC2"
 val chillVersion = "0.9.3"
@@ -67,7 +67,7 @@ val tensorFlowVersion = "1.13.1"
 val zoltarVersion = "0.5.3"
 val magnoliaVersion = "0.10.1-jto"
 val grpcVersion = "1.17.1"
-val caseappVersion = "2.0.0-M6"
+val caseappVersion = "2.0.0-M7"
 
 lazy val scalafixSettings = Def.settings(
   addCompilerPlugin(scalafixSemanticdb)
